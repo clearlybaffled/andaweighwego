@@ -13,3 +13,4 @@
 /tmp
 # All vim swapfiles
 *.sw*
+/node_modules/
