@@ -1,0 +1,11 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @post.title
+  %h2 by
+  = @post.author.name
+  %h2 on
+  = @post.posted_at
+%p
+= @post.body

@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use jdbcsqlite3 as the database for Active Record
@@ -23,9 +22,10 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'haml-rails'
+gem 'guard-rails'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -34,6 +34,10 @@ gem 'haml-rails'
 # gem 'capistrano-rails', group: :development
 
 gem 'rspec-rails', group: [:testing, :development]
-
+gem 'rspec-activemodel-mocks', group: [:testing, :development]
+gem 'factory_girl'
+gem 'faker'
+gem 'simplecov'
+gem 'pry-rails'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

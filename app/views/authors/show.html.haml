@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @author.name
+%p
+  %b Username:
+  = @author.username
+%p
+  %b Password:
+  = @author.password
+%p
+  %b Last login:
+  = @author.last_login
+
+= link_to 'Edit', edit_author_path(@author)
+\|
+= link_to 'Back', authors_path
