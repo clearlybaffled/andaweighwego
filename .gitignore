@@ -13,4 +13,10 @@
 /tmp
 # All vim swapfiles
 *.sw*
-/node_modules/
+node_modules/
+bower_components/
+coverage/
+.sass-cache/
+.idea/
+public/assets/javascript
+db/test*

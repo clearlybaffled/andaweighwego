@@ -2,7 +2,7 @@ sqlite: &sqlite
   adapter: sqlite3
 
 mysql: &mysql
-  adapter: mysql
+  adapter: mysql2
   username: aawg
   password: password
   host: localhost

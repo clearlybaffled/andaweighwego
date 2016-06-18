@@ -12,6 +12,11 @@ class PostsController < ApplicationController
   def show
   end
 
+
+  def new
+    @post = Post.new
+  end
+
   # POST /posts
   # POST /posts.json
   def create
